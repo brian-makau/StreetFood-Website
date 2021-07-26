@@ -11,3 +11,9 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.button{
+    background-color: #5cb840;
+    padding: 10px;
+    border-radius: 30px;
+
+}
