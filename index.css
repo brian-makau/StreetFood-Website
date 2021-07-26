@@ -1,19 +1,70 @@
-.eating{
-    color: #eaab1b;
+*{
+    margin: 0;
+    overflow-x: hidden;
 }
-.contact{
-    background-color: #ffd77c;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.street{
+    color:  #6CB840;
 }
-.deals{
-    background-color: #c9ecb5;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.food{
+    color: #EAAB1B;
 }
-.button{
-    background-color: #5cb840;
-    padding: 10px;
-    border-radius: 30px;
-
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgray;
+    overflow: hidden;
+    display: flex;
+}
+.eclipse{
+    width: 50vw;
+    height: 75vh;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: #649549;
+    border-bottom-left-radius: 100%;
+}
+.eating {
+  color: #eaab1b;
+}
+.eat-together{
+    display: flex;
+}
+.contact {
+  background-color: #ffd77c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.deals {
+  background-color: #c9ecb5;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.headings {
+  padding: 2px;
+  margin: 20px;
+  text-align: center;
+}
+.headings span{
+    color: #6CB840;
+}
+.deals img {
+  height: 100px;
+  width: 100px;
+}
+.deals-content {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  background-color: #5cb840;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+}
+.left-right {
+  float: left;
+}
+.combo {
+  clear: left;
 }
