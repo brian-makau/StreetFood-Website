@@ -27,6 +27,10 @@
 .eating {
   color: #eaab1b;
 }
+.burgers{
+    display: flex;
+    justify-content: ;
+}
 .eat-together{
     display: flex;
 }
@@ -37,9 +41,22 @@
 }
 .deals {
   background-color: #c9ecb5;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding: 0;
+  margin: 0;
 }
+.left-image{
+    width: 100%;
+    height: 100%;
+} 
+.image-1{
+    position: absolute;
+    left: 0;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.image-2{
+    position: relative;
+} 
 .headings {
   padding: 2px;
   margin: 20px;
@@ -48,10 +65,10 @@
 .headings span{
     color: #6CB840;
 }
-.deals img {
+/* .deals img {
   height: 100px;
   width: 100px;
-}
+}*/
 .deals-content {
   display: flex;
   justify-content: space-between;
@@ -66,5 +83,5 @@
   float: left;
 }
 .combo {
-  clear: left;
+    padding-bottom: 0px;
 }
