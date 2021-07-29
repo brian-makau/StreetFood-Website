@@ -60,10 +60,10 @@ li{
   width: 30vw;
   margin-left: 30%;
 } 
-
 .burgers {
   display: flex;
   justify-content: space-around;
+  background-color: lightgray;
 }
 .eat-together {
   display: flex;
