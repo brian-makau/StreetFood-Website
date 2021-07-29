@@ -1,6 +1,20 @@
 * {
   margin: 0;
   overflow-x: hidden;
+  font-size: 20px;
+}
+nav {
+  height: 150px;
+  width: 100%;
+}
+ul{
+  width: auto;
+  margin-top: 10px;
+}
+li{
+  display: inline-flex;
+  justify-content: space-evenly;
+  padding: 40px 40px;
 }
 .street {
   color: #6cb840;
@@ -9,7 +23,7 @@
   color: #eaab1b;
 }
 .container {
-  height: 100vh;
+  height: 75vh;
   width: 100vw;
   background-color: lightgray;
   overflow: auto;
@@ -17,12 +31,17 @@
   flex-direction: column;
 
 }
-.navBar {
+.container-content{
+  width: 25vw;
+  height: 75vh;
+  margin-left: 25px;
+}
+/* .navBar {
   display: flex;
   color: black;
   justify-content: space-evenly;
-}
-.eclipse {
+} */
+/* .eclipse {
   width: 75vw;
   height: 75vh;
   top: 0;
@@ -30,11 +49,18 @@
   position: absolute;
   background-color: #649549;
   border-bottom-left-radius: 100%;
-  z-index: -999;
-}
+} */
 .eating {
   color: #eaab1b;
 }
+.eating-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vw;
+  margin-left: 30%;
+} 
+
 .burgers {
   display: flex;
   justify-content: space-around;
@@ -42,10 +68,30 @@
 .eat-together {
   display: flex;
 }
+/* #right{
+  text-align: center;
+} */
 .contact {
   background-color: #ffd77c;
   margin-top: 0px;
   margin-bottom: 0px;
+  text-align: center;
+  padding: 0px;
+  border-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+.contact-content{
+  width: 25vw;
+  margin-left: 100px;
+  padding: 5px;
+  align-items: center;  
+}
+input{
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 .deals {
   background-color: #c9ecb5;
@@ -86,12 +132,19 @@
   padding: 10px;
   border-radius: 30px;
   border: none;
+  margin-bottom: 50px;
 }
 .left-right {
   float: left;
 }
 .combo {
   padding-bottom: 0px;
+  text-align: left;
+  width: 25%;
+  height: 25%;
+  margin-right: 50px;
+  margin-top: 50px;
+
 }
 .footer{
   display: flex;
