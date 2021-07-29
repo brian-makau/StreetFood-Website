@@ -93,3 +93,17 @@
 .combo {
   padding-bottom: 0px;
 }
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #C9ECB5;
+  margin-top: 20px;
+}
+.footer{
+  padding: 20px;
+}
+.footer-button{
+  background-color: #5cb840;
+  padding: 7px;
+  border: none;
+}
